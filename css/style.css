@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 1500px){
+    body{
+        background-color: #ffcc99;
+    }
+}
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+}
+.nav-list {
+    width: 50%;
+    
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color :white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: chocolate;
+}
+.rightnav {
+    width: 50%;
+    
+    text-align: right;
+}
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.background {
+    background: rgba(0, 0, 0, 0.7) url('bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    margin: 40px 20px;
+    background-color: #ffcc99;
+    padding: 70px;
+    border: 50px #ffcc99;
+}
+.sechalf img{
+    border-radius: 20px;
+}
+
+.text-big{
+    text-decoration: wavy;
+    text-align: center;
+    text-decoration-thickness: initial;
+    /* text-decoration-style: solid; */
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px; 
+}
+.text-small{
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.btn{
+    background-color: white;
+    text-align: center;
+    margin: 30px;
+    color: black;
+    border: transparent;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color:#cc6600;
+}
+.box-main2{
+    margin: 60px 20px;
+    background-color: #ffcc99;
+    padding: 40px;
+    
+}
+.threecourse{
+    display: flex;
+    position: relative;
+}
+.first{
+    margin: 20px 15px;
+}
+.second{
+    margin: 20px 15px;
+   
+}
+.third{
+    margin: 20px 15px;
+   
+}
+.content p{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.box-main3{
+    margin: 60px 20px;
+    background-color: #ffcc99;
+    padding: 100px;  
+}
+.aboutpage{
+    display: flex;
+    align-content: center;
+}
+.fi{
+    background-color: chocolate;
+    margin: 20px 70px;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+    box-shadow: 10px 15px black;
+}
+.fi:hover{
+    background-color: #CD5C5C;
+    box-shadow: 10px 15px gray;
+}
+.tw{
+    background-color: chocolate;
+    margin: 20px 70px;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+    box-shadow: 10px 15px black;
+}
+.tw:hover{
+    background-color: #CD5C5C;
+    box-shadow: 10px 15px gray;
+}
+.th{
+    background-color: chocolate;
+    margin: 20px 70px;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+    box-shadow: 10px 15px black;
+}
+.th:hover{
+    background-color: #CD5C5C;
+    box-shadow: 10px 15px gray;
+}
+.fo{
+    background-color: chocolate;
+    margin: 20px 70px;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+    box-shadow: 10px 15px black;
+}
+.fo:hover{
+    background-color: #CD5C5C;
+    box-shadow: 10px 15px gray;
+}
+.content3 p{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+#down{
+    color: black;
+    margin-bottom: 2px;
+    text-shadow: chocolate 1px 0 10px;
+}
+.box-main4{
+    margin: 20px 20px;
+    background-color: #ffcc99;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 0;  
+}
+.content4 p{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.form{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btnf{
+    background-color: white;
+    text-align: center;
+    margin: 30px;
+    color: black;
+    border: transparent;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btnf:hover{
+    background-color:#cc6600;
+}
+#footer{
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+
+
